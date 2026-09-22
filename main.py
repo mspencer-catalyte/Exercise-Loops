@@ -23,9 +23,7 @@ def print_list(array):
     
     print("\r")
     print("Current List:")
-    for item in array:
-        print(item, end = ", ")
-    print("\r")  
+    print(*array, sep = ", ")  
 
 print_list(numbers)
 
@@ -89,11 +87,6 @@ def array_stats(array):
        Average: [average], Smallest: [smallest], Largest: [largest]"."""
     print (f"Sum: {sum_array(numbers)}, Average: {avg_array(numbers)}, Smallest: {min_array(numbers)}, Largest: {max_array(numbers)}")
 
-# Invoke the function three times, once for each list in the Test Data. 
-# The final result of the program is two prints for list 1 
-# (one from your original code in step 9, one from the function), 
-# one print for list 2, 
-# and one print for list 3.
 
 for list in data_table:
     numbers = list
