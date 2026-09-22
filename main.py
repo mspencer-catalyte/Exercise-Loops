@@ -24,7 +24,7 @@ def print_list(array):
     print("\r")
     print("Current List:")
     for item in array:
-        print(item)
+        print(item, end = ", ")
     print("\r")  
 
 print_list(numbers)
