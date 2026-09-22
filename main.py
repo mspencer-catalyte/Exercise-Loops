@@ -80,6 +80,8 @@ def max_array(array):
             pass
     return max
 
+print(f"Max of current list is: {max_array(numbers)}")
+
 print (f"Sum: {sum_array(numbers)}, Average: {avg_array(numbers)}, Smallest: {min_array(numbers)}, Largest: {max_array(numbers)}")
 
 def array_stats(array):
