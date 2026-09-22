@@ -1,7 +1,7 @@
 
 data_set_1 = [10, 20, 30, 40, 50]
 data_set_2 = [5, -3, 12, 0, -8]
-data_set_3 = [100, 250, 75, 420, "fire"]
+data_set_3 = [100, 250, 75, 420, 130]
 
 data_table = [data_set_1, data_set_2, data_set_3]
 
